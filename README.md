@@ -1,5 +1,6 @@
 # Useful-DOSKEYs
 
+```
 doskey ls=dir $\*\
 doskey cdc=c:\
 doskey pwd=cd\
@@ -17,3 +18,4 @@ doskey ss=netstat ano\
 doskey ps=tasklist\
 doskey kill=taskkill /IM $\*\
 doskey locate=dir "\$\*\*" /s \
+```
