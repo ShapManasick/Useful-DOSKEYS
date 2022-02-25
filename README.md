@@ -31,3 +31,9 @@ doskey adbf=<PATH>\NoxPlayer\Nox\bin\nox_adb.exe shell "/system/bin/sh -c '/data
 
 doskey viewdos="C:\Program Files (x86)\Notepad++\notepad++.exe" <PATH>\.cmds\cmds.bat
 ```
+
+### Setup
+```
+reg add "HKCU\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=\"<PATH>\macros.doskey\"" /f
+reg query "HKCU\Software\Microsoft\Command Processor" /v Autorun
+```
